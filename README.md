@@ -2,13 +2,13 @@
 
 ## Foreword
 
-In this project, we will study the effect of the chemical short-range order (CSRO) on lattice parameter and generalized stacking fault energy (GSFE) in eight equal-molar body-centered cubic (BCC) refractory non-dilute random alloys: NbTa, NbTi, NbV, NbTaTi, NbTaV, NbTiV, NbTaTiV, and NbTaTiVZr.
+In this repository, we will study the effect of the chemical short-range order (CSRO) on lattice parameter and generalized stacking fault energy (GSFE) in eight equal-molar body-centered cubic (BCC) refractory non-dilute random alloys: NbTa, NbTi, NbV, NbTaTi, NbTaV, NbTiV, NbTaTiV, and NbTaTiVZr.
 
-[Another project](https://github.com/shuozhixu/JAP_2025) answered two questions while using the embedded-atom method (EAM) potential. This project aims to assess if those answers depend on the interatomic potential or the number of constituent elements. Specifically, we will employ [a modified embedded-atom method (MEAM) potential](https://www.ctcms.nist.gov/potentials/entry/2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr/2024--Nitol-M-S--V-Nb-Ta-Ti-Zr--LAMMPS--ipr1.html) developed by [Nitol et al.](https://doi.org/10.1016/j.commatsci.2024.112886)
+[Another GitHub repository](https://github.com/shuozhixu/JAP_2025) answered two questions while using the embedded-atom method (EAM) potential. This repository aims to assess if those answers depend on the interatomic potential or the number of constituent elements. Specifically, we will employ [a modified embedded-atom method (MEAM) potential](https://www.ctcms.nist.gov/potentials/entry/2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr/2024--Nitol-M-S--V-Nb-Ta-Ti-Zr--LAMMPS--ipr1.html) developed by [Nitol et al.](https://doi.org/10.1016/j.commatsci.2024.112886)
 
 ## LAMMPS
 
-LAMMPS on [OSCER](http://www.ou.edu/oscer.html) likely does not come with many packages. To finish this project, at least three packages are needed.
+LAMMPS on [OSCER](http://www.ou.edu/oscer.html) likely does not come with many packages. To finish tasks in this repository, at least three packages are needed.
 
 - MANYBODY package. This is to use the manybody potential such as the EAM potential.
 - MC package. This is to generate materials with CSRO at a given temperature. [This paper](http://dx.doi.org/10.1103/PhysRevB.85.184203) and [this paper](https://doi.org/10.1103/PhysRevB.86.134204) should be cited if one uses this package.
