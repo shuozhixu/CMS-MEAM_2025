@@ -4,7 +4,7 @@
 
 In this project, we will study the effect of the chemical short-range order (CSRO) on lattice parameter and generalized stacking fault energy (GSFE) in eight equal-molar body-centered cubic (BCC) refractory non-dilute random alloys: NbTa, NbTi, NbV, NbTaTi, NbTaV, NbTiV, NbTaTiV, and NbTaTiVZr.
 
-[Another project](https://github.com/shuozhixu/CMS_2025) answered two questions while using the embedded-atom method (EAM) potential. This project aims to assess if those answers depend on the interatomic potential. Specifically, we will employ [a modified embedded-atom method (MEAM) potential](https://www.ctcms.nist.gov/potentials/entry/2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr/2024--Nitol-M-S--V-Nb-Ta-Ti-Zr--LAMMPS--ipr1.html) developed by [Nitol et al.](https://doi.org/10.1016/j.commatsci.2024.112886)
+[Another project](https://github.com/shuozhixu/JAP_2025) answered two questions while using the embedded-atom method (EAM) potential. This project aims to assess if those answers depend on the interatomic potential or the number of constituent elements. Specifically, we will employ [a modified embedded-atom method (MEAM) potential](https://www.ctcms.nist.gov/potentials/entry/2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr/2024--Nitol-M-S--V-Nb-Ta-Ti-Zr--LAMMPS--ipr1.html) developed by [Nitol et al.](https://doi.org/10.1016/j.commatsci.2024.112886)
 
 ## LAMMPS
 
