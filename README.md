@@ -2,11 +2,11 @@
 
 ## Foreword
 
-In this repository, we will study the effect of the chemical short-range order (CSRO) on lattice parameter and generalized stacking fault energy (GSFE) in eight equal-molar body-centered cubic (BCC) refractory non-dilute random alloys: NbTa, NbTi, NbV, NbTaTi, NbTaV, NbTiV, NbTaTiV, and NbTaTiVZr.
+In this repository, we will study the effect of the chemical short-range order (CSRO) on lattice parameter and unstable stacking fault energy (USFE) in eight equal-molar body-centered cubic (BCC) refractory non-dilute random alloys: NbTa, NbTi, NbV, NbTaTi, NbTaV, NbTiV, NbTaTiV, and NbTaTiVZr.
 
 [Another GitHub repository](https://github.com/shuozhixu/JAP_2025) answered two questions while using the embedded-atom method (EAM) potential. This repository aims to assess if those answers depend on the interatomic potential and/or the number of constituent elements. Specifically, we will employ [a modified embedded-atom method (MEAM) potential](https://www.ctcms.nist.gov/potentials/entry/2024--Nitol-M-S-Echeverria-M-J-Dang-K-et-al--V-Nb-Ta-Ti-Zr/2024--Nitol-M-S--V-Nb-Ta-Ti-Zr--LAMMPS--ipr1.html) developed by [Nitol et al.](https://doi.org/10.1016/j.commatsci.2024.112886)
 
-A relatively minor issue we will address here is whether the two GSFEs respectively calculated in energy minimized structure and non energy minimized structure are the same for the same composition and ordering. In two related GitHub repositories, one for [EAM](https://github.com/shuozhixu/JAP_2025) and another for [MTP](https://github.com/shuozhixu/JAP-MTP_2025), the GSFEs for random alloys were calculated using either energy minimized or non energy minimized structures, depending on the data source. Here, we will compare them using the random structures.
+A relatively minor issue we will address here is whether the two USFEs respectively calculated in energy minimized structure and non energy minimized structure are the same for the same composition and ordering. In two related GitHub repositories, one for [EAM](https://github.com/shuozhixu/JAP_2025) and another for [MTP](https://github.com/shuozhixu/JAP-MTP_2025), the USFEs for random alloys were calculated using either energy minimized or non energy minimized structures, depending on the data source. Here, we will compare them using the random structures.
 
 Note that all CSRO structures are energy minimized.
 
@@ -48,7 +48,7 @@ Let's denote the lattice parameter as $a_0$.
 
 Note: for the same random alloy, e.g., random NbTa, use either `data.NbTa_random` or `data.NbTa_random_NEM` because they have the same lattice parameter.
 
-## GSFE
+## USFE
 
 In what follows, let's use the energy minimized random quinary NbTaTiVZr as an example. The simulation requires files `data.NbTaTiVZr_random`, `lmp_gsfe.in`, `VNbTaTiZr.library`, `VNbTaTiZr.parameter`. The second file and the last two files are in the `gsfe/` and `meam/` directories, respectively, in this GitHub repository.
 
@@ -62,7 +62,7 @@ Then run the simulation. Once it is finished, we will find a new file `gsfe_ori`
 
 	sh gsfe_curve.sh
 	
-which would yield a new file `gsfe`. The first column is the displacement along the direction while the second column is the GSFE value, in units of mJ/m<sup>2</sup>. The USFE is the peak GSFE value.
+which would yield a new file `gsfe`. The first column is the displacement along the direction while the second column is the generalized stacking fault energy (GSFE) value, in units of mJ/m<sup>2</sup>. The USFE is the peak GSFE value.
 
 ### Other planes
 
