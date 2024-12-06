@@ -92,4 +92,4 @@ For another alloy, e.g., CSRO NbTaTi, make three changes to `lmp_gsfe.in`:
 
 If you use any files from this GitHub repository, please cite
 
-- Shuozhi Xu, Wu-Rong Jian, Irene J. Beyerlein, [Ideal simple shear strengths of two HfNbTaTi-based quinary refractory multi-principal element alloys](http://dx.doi.org/10.1063/5.0116898), APL Mater. 10 (2022) 111107
+- Subah Mubassira, Mahshad Fani, Anshu Raj, Cliff Hirt, Richard S. Brinlee, Amin Poozesh, Wu-Rong Jian, Saeed Zare Chavoshi, Chanho Lee, Shuozhi Xu, [Chemical short-range order and its influence on selected properties of non-dilute random alloys](https://doi.org/10.1016/j.commatsci.2024.113587), Comput. Mater. Sci. 248 (2025) 113587
